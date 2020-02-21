@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         //Get the bill amount
         let bill = Double(billField.text!) ?? 0
         
-        //Calculate the tip and total
+        //Calculate the tip and to
         let tipPercentages = [0.15, 0.18, 0.2]
         
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
